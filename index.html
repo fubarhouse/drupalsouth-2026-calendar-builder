@@ -215,7 +215,7 @@
             const events = await fetchEvents();
             // Add unique IDs to events
             events.forEach((event, index) => {
-                event.id = `${event.startTime}-${event.location}-${event.summary}`.replace(/[^a-zA-Z0-9-]/g, '-');
+                event.id = `${event.startTime}-${event.location}-${event.title}`.replace(/[^a-zA-Z0-9-]/g, '-');
             });
             const uniqueDates = [...new Set(events.map(event => event.startTime.split('T')[0]))];
             const uniqueTracks = [...new Set(events.map(event => event.track))];
@@ -314,7 +314,7 @@
                 
                 // Search across all fields: title, description, track, location
                 const matchesKeywords = !keywordsFilter || 
-                    event.summary.toLowerCase().includes(keywordsFilter) ||
+                    event.title.toLowerCase().includes(keywordsFilter) ||
                     (event.description && event.description.toLowerCase().includes(keywordsFilter)) ||
                     event.track.toLowerCase().includes(keywordsFilter) ||
                     event.location.toLowerCase().includes(keywordsFilter);
@@ -480,7 +480,7 @@
         function toggleEventSelection(eventId) {
             const event = window.allEvents.find(event => event.id === eventId);
             const session_metadata = {
-                session: event.summary,
+                session: event.title,
             }
             const track_metadata = {
                 track: event.track,
@@ -533,7 +533,7 @@
 UID:${uid}
 DTSTART;TZID=Pacific/Auckland:${start}
 DTEND;TZID=Pacific/Auckland:${end}
-SUMMARY:${event.summary}
+SUMMARY:${event.title}
 LOCATION:${event.location}
 DESCRIPTION:${description}
 END:VEVENT`;
