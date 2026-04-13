@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrupalCon Nara 2025 - Custom Schedule Builder</title>
+    <title>DrupalSouth Wellington 2026 - Custom Schedule Builder</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -26,7 +26,7 @@
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-4">
-                    <h1 class="text-2xl font-bold">DrupalCon Nara 2025 - Custom Schedule Builder</h1>
+                    <h1 class="text-2xl font-bold">DrupalSouth Wellington 2026 - Custom Schedule Builder</h1>
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
             <!-- Events will be dynamically inserted here -->
         </div>
         <div id="creditsContainer" class="text-center p-4 mb-24">
-            <p class="text-sm text-gray-600">This is a custom schedule builder for <a href="https://events.drupal.org/nara2025" target="_blank" class="drupal-blue-text">DrupalCon Nara 2025</a>. It is not affiliated with DrupalCon Nara 2025.</p>
+            <p class="text-sm text-gray-600">This is a custom schedule builder for <a href="https://drupalsouth.org/events/drupalsouth-wellington-2026" target="_blank" class="drupal-blue-text">DrupalSouth Wellington 2026</a>. It is not affiliated with DrupalSouth Wellington 2026.</p>
             <p class="text-sm text-gray-600 my-2">Proudly built by <a href="https://www.drupal.org/u/aboros" target="_blank" class="drupal-blue-text">aboros</a> from pure love of <a href="https://www.drupal.org" target="_blank" class="drupal-blue-text">Drupal</a>.</p>
             <p class="text-sm text-gray-600">No tracking, no cookies, no data collection. 100% privacy-first analytics.</p>
         </div>
@@ -139,10 +139,10 @@
         // Fetch and process events data
         async function fetchEvents() {
             try {
-                const response = await fetch('data/events.json');
+                const response = await fetch('./data/events.json');
                 const data = await response.json();
                 data.items.forEach(event => {
-                    event.clean_title = event.summary
+                    event.clean_title = event.title
                         .toLowerCase()
                         .replace(/[^a-z0-9]/g, '_')
                         .replace(/_+/g, '_')
@@ -168,7 +168,8 @@
         }
 
         // Format duration
-        function formatDuration(duration) {
+        function formatDuration(event, duration) {
+            console.log(event)
             const hoursMatch = duration.match(/(\d+)H/);
             const minutesMatch = duration.match(/(\d+)M/);
             const hours = hoursMatch ? parseInt(hoursMatch[1]) : 0;
@@ -504,10 +505,10 @@
             filterEvents(window.allEvents);
         }
 
-        // Helper function to format date for ICS in Tokyo timezone
+        // Helper function to format date for ICS in timezone
         function formatDateForICS(dateString) {
             // Parse the ISO date string directly to avoid timezone conversion issues
-            // The source data is in Tokyo time, so we preserve it as-is
+            // The source data is in xyz time, so we preserve it as-is
             // Format: "2025-10-14T09:30:00" -> "20251014T093000"
             return dateString.replace(/[-:]/g, '').replace(/\.\d+/, '');
         }
@@ -521,7 +522,7 @@
                 const end = formatDateForICS(event.endTime);
                 
                 // Generate a unique UID for the event
-                const uid = `${event.id}@drupalcon-nara-2025`;
+                const uid = `${event.id}@drupalsouth-wellington-2026`;
                 
                 // Escape special characters in description for ICS format
                 // Add URL before the description
@@ -530,8 +531,8 @@
                 
                 return `BEGIN:VEVENT
 UID:${uid}
-DTSTART;TZID=Asia/Tokyo:${start}
-DTEND;TZID=Asia/Tokyo:${end}
+DTSTART;TZID=Pacific/Auckland:${start}
+DTEND;TZID=Pacific/Auckland:${end}
 SUMMARY:${event.summary}
 LOCATION:${event.location}
 DESCRIPTION:${description}
@@ -540,9 +541,9 @@ END:VEVENT`;
 
             return `BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//DrupalCon Nara 2025//EN
-X-WR-CALNAME:DrupalCon Nara 2025
-X-WR-TIMEZONE:Asia/Tokyo
+PRODID:-//DrupalSouth Wellington 2026//EN
+X-WR-CALNAME:DrupalSouth Wellington 2026
+X-WR-TIMEZONE:Pacific/Auckland
 ${icsEvents}
 END:VCALENDAR`;
         }
@@ -569,7 +570,7 @@ END:VCALENDAR`;
 
         // Download selected events as ICS file
         function downloadSelectedEvents(events) {
-            triggerIcsDownload(events, 'drupalcon-nara-2025-selected-events.ics', 'download_ics');
+            triggerIcsDownload(events, 'drupalsouth-wellington-2026-selected-events.ics', 'download_ics');
         }
 
         // Display events in the current view
@@ -624,11 +625,13 @@ END:VCALENDAR`;
                     const displayDate = startDate.toLocaleDateString('en-US', {
                         weekday: 'long',
                         month: 'long',
-                        day: 'numeric'
+                        day: 'numeric',
+                        timeZone: 'Pacific/Auckland'
                     });
                     const displayTime = startDate.toLocaleTimeString('en-US', {
                         hour: '2-digit',
-                        minute: '2-digit'
+                        minute: '2-digit',
+                        timeZone: 'Pacific/Auckland'
                     });
                     
                     // Determine grid columns based on number of sessions
@@ -653,23 +656,26 @@ END:VCALENDAR`;
                                     const dayDate = startDate.toLocaleDateString('en-US', {
                                         weekday: 'long',
                                         month: 'long',
-                                        day: 'numeric'
+                                        day: 'numeric',
+                                        timeZone: 'Pacific/Auckland'
                                     });
                                     
                                     const startTime = startDate.toLocaleTimeString('en-US', {
                                         hour: '2-digit',
-                                        minute: '2-digit'
+                                        minute: '2-digit',
+                                        timeZone: 'Pacific/Auckland'
                                     });
                                     
                                     const endTime = endDate.toLocaleTimeString('en-US', {
                                         hour: '2-digit',
-                                        minute: '2-digit'
+                                        minute: '2-digit',
+                                        timeZone: 'Pacific/Auckland'
                                     });
                                     
                                     const fullDateTime = `${dayDate}.<br><strong>${startTime} - ${endTime}</strong>`;
                                     
                                     // Apply keyword highlighting to relevant fields
-                                    const highlightedSummary = highlightKeywords(event.summary, keywordsFilter);
+                                    const highlightedSummary = highlightKeywords(event.title, keywordsFilter);
                                     const highlightedLocation = event.location ? highlightKeywords(event.location, keywordsFilter) : '';
                                     const highlightedDescription = event.description ? highlightKeywords(event.description, keywordsFilter) : '';
                                     const highlightedTrack = highlightKeywords(event.track, keywordsFilter);
@@ -690,6 +696,7 @@ END:VCALENDAR`;
                                                        onchange="toggleEventSelection('${event.id}')">
                                                 <div class="flex-1">
                                                     <h3 class="font-medium text-gray-900 mb-1">${highlightedSummary}</h3>
+                                                    ${event.speakers ? `<p class="text-sm text-gray-700 mb-1">${Array.isArray(event.speakers) ? event.speakers.join(', ') : event.speakers}</p>` : ''}
                                                     ${event.location ? `<p class="text-sm text-gray-500 mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${highlightedLocation}</p>` : ''}
                                                     ${event.link ? `<p class="text-sm drupal-blue-text mb-1"><a href="${event.link}" target="_blank" class="hover:underline" onclick="event.stopPropagation()">View Session Details <i class="fas fa-external-link-alt ml-1"></i></a></p>` : ''}
                                                     <p class="text-sm text-gray-600 mb-1">${fullDateTime}</p>
@@ -697,7 +704,7 @@ END:VCALENDAR`;
                                                     <p class="text-xs text-gray-600 bg-white bg-opacity-60 px-2 py-1 rounded inline-block">${highlightedTrack}</p>
                                                 </div>
                                             </div>
-                                            <span class="text-sm text-gray-500 ml-4">${formatDuration(event.duration)}</span>
+                                            <span class="text-sm text-gray-500 ml-4">${formatDuration(event, event.duration)}</span>
                                         </div>
                                     </div>`;
                                 }).join('')}

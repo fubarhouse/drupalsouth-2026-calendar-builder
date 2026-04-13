@@ -1,808 +1,463 @@
 {
   "event": {
-    "Location": "Nara",
-    "Year": "2025",
-    "URL": "https://events.drupal.org/nara2025/schedule",
-    "Region": "Asia",
-    "EndDate": "2025-11-19T00:00:00Z",
-    "StartDate": "2025-11-16T00:00:00Z",
-    "Website": "https://events.drupal.org/nara2025",
-    "Venue": "Hotel Nikko Nara",
-    "Timezone": "Asia/Tokyo"
+    "designation": "DrupalSouth",
+    "location": "Wellington",
+    "year": "2026",
+    "website": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule",
+    "region": "New Zealand – Wellington",
+    "endDate": "2026-05-14T16:00:00Z",
+    "startDate": "2026-05-12T08:00:00Z",
+    "scheduleURL": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule",
+    "venue": "Harborside Function Centre",
+    "timezone": "Pacific/Auckland"
   },
   "items": [
     {
-      "startTime": "2025-11-15T17:00:00Z",
-      "endTime": "2025-11-15T19:00:00Z",
-      "duration": "PT2H",
-      "summary": "Early Arrival Drinks (pay your own way) / 早期到着者向けの交流会",
-      "location": "Location Cafe Etranger NARAD",
-      "description": "Planning to arrive early to Nara, how about getting a drink with fellow Drupalers. Venue: CAFE ETRANGER NARAD website: https://cafe-etranger.jp/",
-      "link": "https://events.drupal.org//nara2025/session/early-arrival-drinks-pay-your-own-way-zaoqidaozhezhexiangkenojiaoliuhui",
+      "startTime": "2026-05-11T09:00:00Z",
+      "endTime": "2026-05-11T03:00:00Z",
+      "duration": "P360M",
+      "title": "Code Contribution Sprint",
+      "location": "Venue: 93E Cuba St, Te Aro",
+      "link": "https://maps.apple.com/place?address=93+Cuba+St%2C+Te+Aro%2C+Wellington+6011%2C+New+Zealand\u0026coordinate=-41.2921403%2C174.7765393\u0026name=93+Cuba+St",
       "track": "",
-      "speakers": null,
-      "timezone": ""
+      "speakers": null
     },
     {
-      "startTime": "2025-11-16T12:30:00Z",
-      "endTime": "2025-11-16T15:40:00Z",
-      "duration": "PT3H10M",
-      "summary": "DrupalCon Nara Treasure Hunt",
-      "location": "Location Nara City Visitor's Centre",
-      "description": "Explore the beauty, fun, and nature of Nara City with your friends and family while completing challenges and collecting points, so that you might receive the title of the Ultimate Treasure Hunter.",
-      "link": "https://events.drupal.org//nara2025/session/drupalcon-nara-treasure-hunt",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-17T08:30:00Z",
-      "endTime": "2025-11-17T09:30:00Z",
-      "duration": "PT1H",
-      "summary": "Registration",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/registration",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-17T09:30:00Z",
-      "endTime": "2025-11-17T09:55:00Z",
-      "duration": "PT25M",
-      "summary": "Welcome",
-      "location": "Location Hiten C/D",
-      "description": "Join Mike Richardson and Masami Suzuki from the Drupal Asia Steering Committee as they welcome you to DrupalCon Nara, with special guests Tim Doyle, CEO of the Drupal Association, and Nara City Mayor Gen Nakagawa --- Dear DrupalCon Japan participants,",
-      "link": "https://events.drupal.org//nara2025/session/welcome",
-      "track": "",
+      "startTime": "2026-05-12T21:30:00Z",
+      "endTime": "2026-05-12T22:00:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Main Room",
+      "link": "https://drupalsouth.org/",
+      "track": "Keynote",
       "speakers": [
-        "Gen Nakagawa",
-        "Michael Richardson",
-        "Masami"
-      ],
-      "timezone": ""
+        "TBA"
+      ]
     },
     {
-      "startTime": "2025-11-17T09:55:00Z",
-      "endTime": "2025-11-17T10:55:00Z",
-      "duration": "PT1H",
-      "summary": "A conversation with Drupal’s founder and project lead, Dries Buytaert",
-      "location": "Location Hiten C/D",
-      "description": "On Monday 17 November at 9:55am JST, Drupal founder and project lead Dries Buytaert will take the stage for a special Q\u0026A keynote.",
-      "link": "https://events.drupal.org//nara2025/session/conversation-drupals-founder-and-project-lead-dries-buytaert",
-      "track": "",
+      "startTime": "2026-05-12T22:10:00Z",
+      "endTime": "2026-05-12T22:40:00Z",
+      "duration": "P30M",
+      "title": "Bots, Scrapers, and Proxies: Defending Drupal Sites in an Automated Internet",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4341",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "Dries Buytaert"
-      ],
-      "timezone": ""
+        "Sean Hamlin"
+      ]
     },
     {
-      "startTime": "2025-11-17T10:00:00Z",
-      "endTime": "2025-11-17T18:10:00Z",
-      "duration": "PT8H10M",
-      "summary": "General Contribution Day 1",
-      "location": "Location Contribution",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/general-contribution-day-1",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-17T10:55:00Z",
-      "endTime": "2025-11-17T11:05:00Z",
-      "duration": "PT10M",
-      "summary": "Group Photo",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/group-photo",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-17T11:05:00Z",
-      "endTime": "2025-11-17T11:25:00Z",
-      "duration": "PT20M",
-      "summary": "Morning Break",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/morning-break",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-17T11:25:00Z",
-      "endTime": "2025-11-17T12:10:00Z",
-      "duration": "PT45M",
-      "summary": "Drupal CMS now and beyond",
-      "location": "Location Hiten A",
-      "description": "With Drupal CMS 2.0 released in September, it's a great opportunity to showcase what we have built so far, what we have planned next on the roadmap, and briefly look back at the process so far.",
-      "link": "https://events.drupal.org//nara2025/session/drupal-cms-now-and-beyond",
-      "track": "drupal cms",
+      "startTime": "2026-05-12T22:10:00Z",
+      "endTime": "2026-05-12T22:40:00Z",
+      "duration": "P30M",
+      "title": "Using GA4 to Improve Content and UX in Drupal-Powered Sites",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4316",
+      "track": "User Experience \u0026 Content",
       "speakers": [
-        "pameeela",
-        "ckrina"
-      ],
-      "timezone": ""
+        "Lana Gibson"
+      ]
     },
     {
-      "startTime": "2025-11-17T11:25:00Z",
-      "endTime": "2025-11-17T11:45:00Z",
-      "duration": "PT20M",
-      "summary": "First things to keep in mind when building a worldwide multi-site, multilingual site with Drupal",
-      "location": "Location Hiten B",
-      "description": "Drupal is so popular in the enterprise market that there is no single Drupal development project that is easy for developers. One of the biggest challenges is the global project of deploying multiple sites in multiple languages in so many regions and countries.",
-      "link": "https://events.drupal.org//nara2025/session/first-things-keep-mind-when-building-worldwide-multi-site-multilingual-site-drupal",
-      "track": "leadership and business / リーダーシップ、ビジネス",
+      "startTime": "2026-05-12T23:00:00Z",
+      "endTime": "2026-05-12T23:30:00Z",
+      "duration": "P30M",
+      "title": "Keywords to Context: Semantic Search and Retrieval-Augmented Generation with OpenSearch",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4301",
+      "track": "Drupal Development",
       "speakers": [
-        "ken_taguchi"
-      ],
-      "timezone": ""
+        "Daniel Veza"
+      ]
     },
     {
-      "startTime": "2025-11-17T11:25:00Z",
-      "endTime": "2025-11-17T12:10:00Z",
-      "duration": "PT45M",
-      "summary": "How to sell Drupal in AI times",
-      "location": "Location Hiten C/D",
-      "description": "AI is reshaping buyer expectations faster than any CMS trend we’ve seen. Prospects now ask: “How will your platform harness my data for AI without locking me in?” This session arms agency leads, sales engineers, and product owners with a pitch that lands.",
-      "link": "https://events.drupal.org//nara2025/session/how-sell-drupal-ai-times",
-      "track": "leadership and business / リーダーシップ、ビジネス",
+      "startTime": "2026-05-12T23:00:00Z",
+      "endTime": "2026-05-12T23:30:00Z",
+      "duration": "P30M",
+      "title": "Premium Theme + AI - the new standard",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4271",
+      "track": "User Experience \u0026 Content",
       "speakers": [
-        "nielsaers"
-      ],
-      "timezone": ""
+        "George Bonnici-Carter"
+      ]
     },
     {
-      "startTime": "2025-11-17T11:50:00Z",
-      "endTime": "2025-11-17T12:10:00Z",
-      "duration": "PT20M",
-      "summary": "Backwards and in High Heels: Early adopter insights on Drupal in Japanese academia",
-      "location": "Location Hiten B",
-      "description": "Fax machines for marketing? Carved ivory seals for bank accounts? These aren't just \"WTF Japan\" memes; they grew out of the context of the bureaucracy, language, society, and culture. The better you understand this context, the more effective you will be here.",
-      "link": "https://events.drupal.org//nara2025/session/backwards-and-high-heels-early-adopter-insights-drupal-japanese-academia",
-      "track": "community health / コミュニティヘルス",
+      "startTime": "2026-05-12T23:00:00Z",
+      "endTime": "2026-05-12T23:30:00Z",
+      "duration": "P30M",
+      "title": "The Pinto module - efficient theming for front and back end developers",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4299",
+      "track": "Drupal Development",
       "speakers": [
-        "shinmaikeru"
-      ],
-      "timezone": ""
+        "Adam Bramley"
+      ]
     },
     {
-      "startTime": "2025-11-17T12:10:00Z",
-      "endTime": "2025-11-17T13:10:00Z",
-      "duration": "PT1H",
-      "summary": "Lunch",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/lunch",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-17T13:10:00Z",
-      "endTime": "2025-11-17T13:55:00Z",
-      "duration": "PT45M",
-      "summary": "Kintsugi for the Web: Repairing, Rebuilding, and Reimagining with Drupal",
-      "location": "Location Hiten C/D",
-      "description": "Join Dallas Ramsden on a journey connecting personal resilience with Drupal's transformative power through science, culture, and community.",
-      "link": "https://events.drupal.org//nara2025/session/kintsugi-web-repairing-rebuilding-and-reimagining-drupal",
-      "track": "community health / コミュニティヘルス",
+      "startTime": "2026-05-12T23:40:00Z",
+      "endTime": "2026-05-13T00:20:00Z",
+      "duration": "P40M",
+      "title": "The Open Source Vulnerability (OSV) Scanner Releases Support for Drupal Security Advisories - project showcase",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4324",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "dreambubbler"
-      ],
-      "timezone": ""
+        "Gareth Jones"
+      ]
     },
     {
-      "startTime": "2025-11-17T13:10:00Z",
-      "endTime": "2025-11-17T13:55:00Z",
-      "duration": "PT45M",
-      "summary": "That's Not a Theme, It's a Template",
-      "location": "Location Hiten B",
-      "description": "The Drupal Canvas design system for Drupal CMS: one system, three site templates, and a streamlined path to low-code site creation—launching together to guide site builders, themers and designers.",
-      "link": "https://events.drupal.org//nara2025/session/thats-not-theme-its-template",
-      "track": "ux, accessibility, and design / ux、アクセシビリティ、デザイン",
+      "startTime": "2026-05-12T23:40:00Z",
+      "endTime": "2026-05-13T00:20:00Z",
+      "duration": "P40M",
+      "title": "Designing encapsulated content",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4290",
+      "track": "User Experience \u0026 Content",
       "speakers": [
-        "elliott.mower"
-      ],
-      "timezone": ""
+        "Angus Gordon"
+      ]
     },
     {
-      "startTime": "2025-11-17T13:10:00Z",
-      "endTime": "2025-11-17T13:55:00Z",
-      "duration": "PT45M",
-      "summary": "長期運用のためのDrupal開発入門",
-      "location": "Location Hiten A",
-      "description": "このセッションでは、Drupalを使い始めた開発者の方に向けて、長期運用を見据えたDrupal開発の実践的なトピックを紹介します。 Drupalはセキュリティや拡張性に優れ長期プロジェクトに適したCMSですが、継続的な運用には工夫やノウハウが必要です。 本セッションでは以下のトピックを取り上げます： - Drupalが長期運用に適している理由 - モジュール選定の考え方 - サイト構成管理のベストプラクティス - アップデート戦略 - CI/CDによる自動化",
-      "link": "https://events.drupal.org//nara2025/session/zhangqiyunyongnotamenodrupalkaifarumen",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-12T23:40:00Z",
+      "endTime": "2026-05-13T00:20:00Z",
+      "duration": "P40M",
+      "title": "From Prompt to Pull Request: Human-led, AI-assisted workflows for building Drupal features",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4277",
+      "track": "Drupal Development",
       "speakers": [
-        "kazukomurata"
-      ],
-      "timezone": ""
+        "Alex Skrypnyk"
+      ]
     },
     {
-      "startTime": "2025-11-17T14:10:00Z",
-      "endTime": "2025-11-17T14:30:00Z",
-      "duration": "PT20M",
-      "summary": "Beyond Iframes: Modern Embedding in Drupal with Media and oEmbed",
-      "location": "Location Hiten A",
-      "description": "oEmbed is a well established format, however ever evolving content usage policies and security restrictions are preventing site builders from using iFrames to inject external content from sources such as YouTube, Instagram, X, and many social networks and content providers.",
-      "link": "https://events.drupal.org//nara2025/session/beyond-iframes-modern-embedding-drupal-media-and-oembed",
-      "track": "site building / サイト構築",
+      "startTime": "2026-05-13T00:20:00Z",
+      "endTime": "2026-05-13T00:50:00Z",
+      "duration": "P30M",
+      "title": "CWACking on with it: New Zealand Government's open source accessibility testing software programme",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4312",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "pcambra"
-      ],
-      "timezone": ""
+        "Jason Kiss"
+      ]
     },
     {
-      "startTime": "2025-11-17T14:10:00Z",
-      "endTime": "2025-11-17T14:55:00Z",
-      "duration": "PT45M",
-      "summary": "Lessons from Integrating AI Into Real Marketing Teams",
-      "location": "Location Hiten B",
-      "description": "I’ve been working directly with AI to help solve real challenges faced by marketing teams, improving workflows, reducing manual effort, and supporting better decision-making.",
-      "link": "https://events.drupal.org//nara2025/session/lessons-integrating-ai-real-marketing-teams",
-      "track": "content and marketing / コンテンツとマーケティング",
+      "startTime": "2026-05-13T00:20:00Z",
+      "endTime": "2026-05-13T00:50:00Z",
+      "duration": "P30M",
+      "title": "Creating scalable structure: Content design systems in government",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4274",
+      "track": "User Experience \u0026 Content",
       "speakers": [
-        "saxenaakansha30"
-      ],
-      "timezone": ""
+        "Emma Kelson"
+      ]
     },
     {
-      "startTime": "2025-11-17T14:10:00Z",
-      "endTime": "2025-11-17T14:40:00Z",
-      "duration": "PT30M",
-      "summary": "ネスレグループ日本拠点のDrupal導入の事例： グローバル戦略と現場の運用を繋いでいく",
-      "location": "Location Hiten C/D",
-      "description": "前半では日本拠点でのDrupal導入における課題や取り組みを紹介し、後半はグローバルDXPにおけるアジリティ実現をテーマにネスレ日本の担当者の方と対談します。実務担当者の視点からの知見を共有します。",
-      "link": "https://events.drupal.org//nara2025/session/nesurekurufuribenjudiannodrupaldaorunoshili",
-      "track": "sponsored session",
+      "startTime": "2026-05-13T01:50:00Z",
+      "endTime": "2026-05-13T02:20:00Z",
+      "duration": "P30M",
+      "title": "Drupal as the Digital Backbone: Transforming Government Digital Services at Scale",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4320",
+      "track": "People \u0026 Culture",
       "speakers": [
-        "taishi",
-        "Kozo Takada"
-      ],
-      "timezone": ""
+        "Ian Laslett"
+      ]
     },
     {
-      "startTime": "2025-11-17T14:35:00Z",
-      "endTime": "2025-11-17T14:55:00Z",
-      "duration": "PT20M",
-      "summary": "Drupal Asia Steering Committee Panel",
-      "location": "Location Hiten A",
-      "description": "Come and chat to the organisers of DrupalCons in Asia",
-      "link": "https://events.drupal.org//nara2025/session/drupal-asia-steering-committee-panel",
-      "track": "",
+      "startTime": "2026-05-13T01:50:00Z",
+      "endTime": "2026-05-13T02:20:00Z",
+      "duration": "P30M",
+      "title": "What your content stakeholders are worried about in the age of AI - and why it matters for developers",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4315",
+      "track": "User Experience \u0026 Content",
       "speakers": [
-        "Michael Richardson"
-      ],
-      "timezone": ""
+        "Ruth Hendry"
+      ]
     },
     {
-      "startTime": "2025-11-17T14:55:00Z",
-      "endTime": "2025-11-17T15:15:00Z",
-      "duration": "PT20M",
-      "summary": "Afternoon Break",
-      "location": "Location Hiten B",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/afternoon-break",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-17T15:15:00Z",
-      "endTime": "2025-11-17T15:35:00Z",
-      "duration": "PT20M",
-      "summary": "Drupalプロジェクトの成功は、プロジェクトマネージャー・スクラムマスター・UXデザイナーの力で加速する―多様な視点を巻き込むMeetupNaraの挑戦―",
-      "location": "Location Hiten B",
-      "description": "Drupalは高機能なCMSとして多くの実績を持つ一方で、日本では「技術者向け」「専門的すぎる」という印象を持たれがちです。しかし実際には、プロジェクトマネージャー（PM）、スクラムマスター（SM）、UXデザイナー、コンテンツプランナーなど、多様な職種が関わり合いながらプロジェクトを成功に導いています。",
-      "link": "https://events.drupal.org//nara2025/session",
-      "track": "community health / コミュニティヘルス",
+      "startTime": "2026-05-13T01:50:00Z",
+      "endTime": "2026-05-13T02:20:00Z",
+      "duration": "P30M",
+      "title": "Building a Template for the Marketplace: Challenges and opportunities",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4322",
+      "track": "Drupal Development",
       "speakers": [
-        "Miki Yoshida",
-        "Misako Fukagawa"
-      ],
-      "timezone": ""
+        "Murray Woodman"
+      ]
     },
     {
-      "startTime": "2025-11-17T15:15:00Z",
-      "endTime": "2025-11-17T15:45:00Z",
-      "duration": "PT30M",
-      "summary": "Session by Fastly",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/session-fastly",
-      "track": "sponsored session",
+      "startTime": "2026-05-13T02:30:00Z",
+      "endTime": "2026-05-13T03:00:00Z",
+      "duration": "P30M",
+      "title": "Workshops that actually work: Turning discovery into delivery",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4286",
+      "track": "Other ...",
       "speakers": [
-        "N A"
-      ],
-      "timezone": ""
+        "Emily Mills"
+      ]
     },
     {
-      "startTime": "2025-11-17T15:15:00Z",
-      "endTime": "2025-11-17T16:00:00Z",
-      "duration": "PT45M",
-      "summary": "Zero-downtime Drupal deployment with Kamal",
-      "location": "Location Hiten A",
-      "description": "You've built an amazing Drupal site ready to deploy. You want your deployments zero downtime, error-free, scalable, and future-proof. Yet, you are almost on your own, and Kubernetes is quite a beast to tame!",
-      "link": "https://events.drupal.org//nara2025/session/zero-downtime-drupal-deployment-kamal",
-      "track": "devops",
+      "startTime": "2026-05-13T02:30:00Z",
+      "endTime": "2026-05-13T03:00:00Z",
+      "duration": "P30M",
+      "title": "AI Can Do My Job Now (Sort Of) (Not Really) (It's Complicated): A user researcher's complicated relationship with AI",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4346",
+      "track": "User Experience \u0026 Content",
       "speakers": [
-        "hktang"
-      ],
-      "timezone": ""
+        "Billie-Mae Kennedy"
+      ]
     },
     {
-      "startTime": "2025-11-17T15:40:00Z",
-      "endTime": "2025-11-17T16:00:00Z",
-      "duration": "PT20M",
-      "summary": "改めて振り返るDrupalのモジュール/テーマのデバッグ方法",
-      "location": "Location Hiten B",
-      "description": "Drupalでモジュールやテーマを開発する際や動作の中で気になる挙動を見つけた際の原因特定を行う為のデバッグ方法について普段私がどのように行っているかをハンズオンを交えて紹介します。 主な内容は以下の通りです。 ・デバッグ環境の整え方 ・デバッグに便利なコントリビュートモジュールの紹介(Devel, Web Profiler) ・IDE(PhpStorm)とXdebugを組合せたデバッグ方法",
-      "link": "https://events.drupal.org//nara2025/session/gaimetezhenrifanrudrupalnomoshiyurutemanotehatsukufangfa",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-13T02:30:00Z",
+      "endTime": "2026-05-13T03:00:00Z",
+      "duration": "P30M",
+      "title": "Pacific Dataviz Challenge: Telling the Story of the Pacific Through Visualised Open Data",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4313",
+      "track": "Drupal Development",
       "speakers": [
-        "otofu"
-      ],
-      "timezone": ""
+        "Jason Ryan Thompson"
+      ]
     },
     {
-      "startTime": "2025-11-17T16:15:00Z",
-      "endTime": "2025-11-17T17:00:00Z",
-      "duration": "PT45M",
-      "summary": "CMSに留まらない - AIを操るDrupalの新たな可能性",
-      "location": "Location Hiten B",
-      "description": "Drupalはもはや単なるCMSではありません。AIの一部として機能しながら、同時にAIを操り、対話し、共に進化していく存在へと変わりつつあります。このセッションでは、DrupalがどのようにAIと共に進化し、新たな可能性を切り拓いていくのかを紹介します。",
-      "link": "https://events.drupal.org//nara2025/session/cmsniliumaranai-aiwocaorudrupalnoxintanakenengxing",
-      "track": "drupal showcase / drupalショーケース",
+      "startTime": "2026-05-13T03:10:00Z",
+      "endTime": "2026-05-13T03:40:00Z",
+      "duration": "P30M",
+      "title": "Drupal as an ERP backend to Shopify",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4287",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "Masami",
-        "Akihito.Kimura@ntt.com"
-      ],
-      "timezone": ""
+        "Simon Hobbs"
+      ]
     },
     {
-      "startTime": "2025-11-17T16:15:00Z",
-      "endTime": "2025-11-17T17:00:00Z",
-      "duration": "PT45M",
-      "summary": "Drupal Commerce's Starshot Roadmap",
-      "location": "Location Hiten A",
-      "description": "The vision for Drupal CMS (née Starshot) is bold and inspiring, inviting everyone in the Drupal community to consider how they might help end users accomplish even more with Drupal.",
-      "link": "https://events.drupal.org//nara2025/session/drupal-commerces-starshot-roadmap",
-      "track": "drupal showcase / drupalショーケース",
+      "startTime": "2026-05-13T03:10:00Z",
+      "endTime": "2026-05-13T03:40:00Z",
+      "duration": "P30M",
+      "title": "Being in the Room Is the Strategy - How Drupal, proximity, and rapid prototyping unlock real Government agility",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4291",
+      "track": "People \u0026 Culture",
       "speakers": [
-        "zaporylie",
-        "jsacksick"
-      ],
-      "timezone": ""
+        "Alex Matthews"
+      ]
     },
     {
-      "startTime": "2025-11-17T16:15:00Z",
-      "endTime": "2025-11-17T17:00:00Z",
-      "duration": "PT45M",
-      "summary": "Global Reach, One Platform: The Journey to Implementing Multilingual in Drupal CMS",
-      "location": "Location Hiten C/D",
-      "description": "After the release of Drupal CMS 1.0, a language selector was introduced but it was later removed due to technical limitations. Today, multilingual support is more essential than ever.",
-      "link": "https://events.drupal.org//nara2025/session/global-reach-one-platform-journey-implementing-multilingual-drupal-cms",
-      "track": "ux, accessibility, and design / ux、アクセシビリティ、デザイン",
+      "startTime": "2026-05-13T03:10:00Z",
+      "endTime": "2026-05-13T03:40:00Z",
+      "duration": "P30M",
+      "title": "Drupal CMS2: What's in the box?",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4311",
+      "track": "Drupal Development",
       "speakers": [
-        "anjali-rathod",
-        "ygoex"
-      ],
-      "timezone": ""
+        "Stewart West"
+      ]
     },
     {
-      "startTime": "2025-11-17T17:00:00Z",
-      "endTime": "2025-11-17T18:45:00Z",
-      "duration": "PT1H45M",
-      "summary": "Networking Drinks",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/networking-drinks",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T09:00:00Z",
-      "endTime": "2025-11-18T17:15:00Z",
-      "duration": "PT8H15M",
-      "summary": "General Contribution Day 2",
-      "location": "Location Contribution",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/general-contribution-day-2",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T09:00:00Z",
-      "endTime": "2025-11-18T09:15:00Z",
-      "duration": "PT15M",
-      "summary": "Welcome",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/welcome-0",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T09:15:00Z",
-      "endTime": "2025-11-18T10:00:00Z",
-      "duration": "PT45M",
-      "summary": "Inside Sharp: How a Global Brand Powers Digital Innovation with Drupal",
-      "location": "Location Hiten C/D",
-      "description": "The Day 2 keynote at DrupalCon Nara 2025 shines a spotlight on how one of the world’s most recognised brands is using Drupal to drive digital success.",
-      "link": "https://events.drupal.org//nara2025/session/inside-sharp-how-global-brand-powers-digital-innovation-drupal",
-      "track": "drupal showcase / drupalショーケース",
+      "startTime": "2026-05-13T21:40:00Z",
+      "endTime": "2026-05-13T22:10:00Z",
+      "duration": "P30M",
+      "title": "Secure and quality content - Automating moderation tests with Cypress",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4345",
+      "track": "Drupal Development",
       "speakers": [
-        "Jason Cort"
-      ],
-      "timezone": ""
+        "Marji Cermak"
+      ]
     },
     {
-      "startTime": "2025-11-18T10:00:00Z",
-      "endTime": "2025-11-18T10:15:00Z",
-      "duration": "PT15M",
-      "summary": "Morning Break",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/morning-break-0",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T10:15:00Z",
-      "endTime": "2025-11-18T11:00:00Z",
-      "duration": "PT45M",
-      "summary": "Brilliant, But Doubting: Imposter Syndrome and the Experience of Women in Tech",
-      "location": "Location Hiten B",
-      "description": "Despite increasing participation of women in the technology sector, many continue to grapple with imposter syndrome, a psychological pattern marked by persistent self-doubt and a fear of being exposed as a fraud, despite evident competence and achievements.",
-      "link": "https://events.drupal.org//nara2025/session/brilliant-doubting-imposter-syndrome-and-experience-women-tech",
-      "track": "community health / コミュニティヘルス",
+      "startTime": "2026-05-13T21:40:00Z",
+      "endTime": "2026-05-13T22:10:00Z",
+      "duration": "P30M",
+      "title": "Reproducible Drupal Environments The Easy Way: A Hands-On Look At Using Drupal With Nix \u0026 NixOS",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4236",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "gargsuchi",
-        "JCT321"
-      ],
-      "timezone": ""
+        "Andrew Benbow"
+      ]
     },
     {
-      "startTime": "2025-11-18T10:15:00Z",
-      "endTime": "2025-11-18T11:00:00Z",
-      "duration": "PT45M",
-      "summary": "Further Empowering Drupal with Single Directory Components using UI Suite",
-      "location": "Location Hiten A",
-      "description": "UI Suite is a powerful set of Drupal modules comprising of modules like UI Patterns, UI Patterns Layouts, UI Patterns Block, UI Patterns Field Formatters, UI Patterns Views, UI Styles, UI Skins, UI Icons etc.",
-      "link": "https://events.drupal.org//nara2025/session/further-empowering-drupal-single-directory-components-using-ui-suite",
-      "track": "site building / サイト構築",
+      "startTime": "2026-05-13T22:30:00Z",
+      "endTime": "2026-05-13T23:00:00Z",
+      "duration": "P30M",
+      "title": "From 'Meh' to Meaningful: Driving compliant, on-brand AI with context",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4334",
+      "track": "Drupal Development",
       "speakers": [
-        "drupak"
-      ],
-      "timezone": ""
+        "Suchi Garg"
+      ]
     },
     {
-      "startTime": "2025-11-18T10:15:00Z",
-      "endTime": "2025-11-18T11:00:00Z",
-      "duration": "PT45M",
-      "summary": "Next steps for Drupal Canvas",
-      "location": "Location Hiten C/D",
-      "description": "Drupal Canvas initiative aims to revolutionize how content creators and site builders create digital experiences. While there has been significant progress already, the journey is far from over.",
-      "link": "https://events.drupal.org//nara2025/session/next-steps-drupal-canvas",
-      "track": "drupal cms",
+      "startTime": "2026-05-13T22:30:00Z",
+      "endTime": "2026-05-13T23:00:00Z",
+      "duration": "P30M",
+      "title": "Rethinking the JavaScript Reflex",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4289",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "lauriii"
-      ],
-      "timezone": ""
+        "Brynn Briedis"
+      ]
     },
     {
-      "startTime": "2025-11-18T11:15:00Z",
-      "endTime": "2025-11-18T12:00:00Z",
-      "duration": "PT45M",
-      "summary": "Don’t Write Code, Start Prompting! AI Orchestration of Digital Experiences",
-      "location": "Location Hiten C/D",
-      "description": "We introduce the architecture of a technology-agnostic workflow engine that defines human-readable decision rules in YAML, ingests them into a RAG datastore, and leverages an LLM to retrieve relevant rules and instantly determine and execute the next approver.",
-      "link": "https://events.drupal.org//nara2025/session/dont-write-code-start-prompting-ai-orchestration-digital-experiences",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-13T23:10:00Z",
+      "endTime": "2026-05-13T23:40:00Z",
+      "duration": "P30M",
+      "title": "Getting started with Drupal Observability using OpenTelemetry and Grafana",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4321",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "yas"
-      ],
-      "timezone": ""
+        "Jonathan Hunt"
+      ]
     },
     {
-      "startTime": "2025-11-18T11:15:00Z",
-      "endTime": "2025-11-18T12:00:00Z",
-      "duration": "PT45M",
-      "summary": "Migrate APIで移行 (イコー)",
-      "location": "Location Hiten B",
-      "description": "Drupalコアの優れた機能の一つであるMigrate APIは、サイトのバージョンアップはもちろん、さまざまなデータ移行のケースで活用できます。本セッションでは、その具体的な活用例をいくつかご紹介します。",
-      "link": "https://events.drupal.org//nara2025/session/migrate-apiteyixing-iko",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-13T23:10:00Z",
+      "endTime": "2026-05-13T23:40:00Z",
+      "duration": "P30M",
+      "title": "Delivering Quality Drupal",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4339",
+      "track": "Other ...",
       "speakers": [
-        "Matthew Messmer",
-        "aniketto"
-      ],
-      "timezone": ""
+        "Quinn Hart"
+      ]
     },
     {
-      "startTime": "2025-11-18T11:15:00Z",
-      "endTime": "2025-11-18T12:00:00Z",
-      "duration": "PT45M",
-      "summary": "The future of Drupal core and the ecosystem in the age of Drupal CMS",
-      "location": "Location Hiten A",
-      "description": "The introduction of Drupal CMS has created a buzz in the Drupal community, redefining how we think about building with Drupal. Its flexible, modern approach to development has opened up new possibilities for innovation.",
-      "link": "https://events.drupal.org//nara2025/session/future-drupal-core-and-ecosystem-age-drupal-cms",
-      "track": "drupal cms",
+      "startTime": "2026-05-13T23:50:00Z",
+      "endTime": "2026-05-14T00:20:00Z",
+      "duration": "P30M",
+      "title": "Recipes, Site Templates and the future of Drupal distributions",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4309",
+      "track": "Drupal Development",
       "speakers": [
-        "gábor hojtsy"
-      ],
-      "timezone": ""
+        "Michael Strelan"
+      ]
     },
     {
-      "startTime": "2025-11-18T12:00:00Z",
-      "endTime": "2025-11-18T13:00:00Z",
-      "duration": "PT1H",
-      "summary": "Lunch",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/lunch-0",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T13:00:00Z",
-      "endTime": "2025-11-18T13:45:00Z",
-      "duration": "PT45M",
-      "summary": "Drupal in the Loop: チームで育てる学習データ",
-      "location": "Location Hiten B",
-      "description": "数年前まで、機械学習やファインチューニングは、一部の研究機関やAIスタートアップの専有領域でした。 しかしこの数年、さまざまなツールやプラットフォームの登場によって、それが少しずつ、私たちにとっても身近なものになりつつあります。 学習データは、モデルの「知性」を決める最も重要な基盤です。けれど、そのデータをチームで育てるための仕組みである、バージョン管理、ワークフロー、セキュリティ、アクセス制御、監査ログ出力などの要素を包括的にカバーできるツールは、まだ多くありません。",
-      "link": "https://events.drupal.org//nara2025/session/drupal-loop-chimuteyuteruxuexiteta",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-13T23:50:00Z",
+      "endTime": "2026-05-14T00:20:00Z",
+      "duration": "P30M",
+      "title": "Including Disabled Peoples' Voice in Consultation, Service Design and Building Services that provide accessibility that digital teams should know",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4317",
+      "track": "User Experience \u0026 Content",
       "speakers": [
-        "umekikazuya",
-        "sachikonitta"
-      ],
-      "timezone": ""
+        "Leo Goldie-Anderson"
+      ]
     },
     {
-      "startTime": "2025-11-18T13:00:00Z",
-      "endTime": "2025-11-18T13:15:00Z",
-      "duration": "PT15M",
-      "summary": "Epic things you built with Drupal AI",
-      "location": "Location Hiten A",
-      "description": "Curious about how AI is actually being used in the wild? Join Michael for an in-depth look at the awesome things that have been built with Drupal AI. This session gives an overview of actual running Drupal AI Implementations, how they work, and what we can learn from them.",
-      "link": "https://events.drupal.org//nara2025/session/epic-things-you-built-drupal-ai",
-      "track": "sponsored session",
+      "startTime": "2026-05-14T01:20:00Z",
+      "endTime": "2026-05-14T01:50:00Z",
+      "duration": "P30M",
+      "title": "When good enough is not good enough - a short story about performance tuning for Valkey",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4318",
+      "track": "Drupal Development",
       "speakers": [
-        "schnitzel"
-      ],
-      "timezone": ""
+        "Max Pogonowski"
+      ]
     },
     {
-      "startTime": "2025-11-18T13:00:00Z",
-      "endTime": "2025-11-18T13:45:00Z",
-      "duration": "PT45M",
-      "summary": "Recipes: It's About Time!",
-      "location": "Location Hiten C/D",
-      "description": "One of the key elements of the Starshot Initiative is the rapidly evolving system for Recipes.",
-      "link": "https://events.drupal.org//nara2025/session/recipes-its-about-time",
-      "track": "drupal cms",
+      "startTime": "2026-05-14T01:20:00Z",
+      "endTime": "2026-05-14T01:50:00Z",
+      "duration": "P30M",
+      "title": "Platform-First AI: How We Built a Secure AI Infrastructure and Showcased It Through Drupal",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4323",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "mandclu"
-      ],
-      "timezone": ""
+        "Toby Bellwood"
+      ]
     },
     {
-      "startTime": "2025-11-18T14:00:00Z",
-      "endTime": "2025-11-18T14:45:00Z",
-      "duration": "PT45M",
-      "summary": "Declarative Shadow DOM and the future of Drupal Theming",
-      "location": "Location Hiten C/D",
-      "description": "Drupal's old school theming system is server-side rendering. And in the tech world, everything old is new again. In the last two years, modern frontend frameworks have been trying to figure out how to server-side render their client-side JavaScript.",
-      "link": "https://events.drupal.org//nara2025/session/declarative-shadow-dom-and-future-drupal-theming",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-14T01:20:00Z",
+      "endTime": "2026-05-14T01:50:00Z",
+      "duration": "P30M",
+      "title": "DrupalSouth Committee",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org/",
+      "track": "Panel",
       "speakers": [
-        "JohnAlbin"
-      ],
-      "timezone": ""
+        "Julia Topliss",
+        "Chris Burgess",
+        "Margery Tongway",
+        "Vladimir Roudakov"
+      ]
     },
     {
-      "startTime": "2025-11-18T14:00:00Z",
-      "endTime": "2025-11-18T14:15:00Z",
-      "duration": "PT15M",
-      "summary": "The Future of Workflow Optimization with AI \u0026 Drupal Canvas",
-      "location": "Location Hiten A",
-      "description": "AI is no longer a “nice-to-have” but a necessity for businesses looking to maintain a competitive edge. By identifying inefficiencies and integrating AI solutions from Drupal, organizations can create more collaborative, efficiency, and optimize workflows and the content creation process.",
-      "link": "https://events.drupal.org//nara2025/session/future-workflow-optimization-ai-drupal-canvas",
-      "track": "sponsored session",
+      "startTime": "2026-05-14T02:00:00Z",
+      "endTime": "2026-05-14T02:30:00Z",
+      "duration": "P30M",
+      "title": "Navigating the Dual Frontier: Securing Drupal Against Malicious Bots while Optimizing for AEO",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4328",
+      "track": "Drupal Development",
       "speakers": [
-        "Maggie Schroeder",
-        "shumpei"
-      ],
-      "timezone": ""
+        "Naveen Prakash Duraisamy"
+      ]
     },
     {
-      "startTime": "2025-11-18T14:00:00Z",
-      "endTime": "2025-11-18T14:45:00Z",
-      "duration": "PT45M",
-      "summary": "大規模Drupalサイトの成功事例：全豪オープンが毎分53万リクエスト以上を処理する仕組み",
-      "location": "Location Hiten B",
-      "description": "テニスの全豪オープンは3週間の開催期間中に100万人を超える観客が来場し、さらに世界中から数百万人がウェブサイトやモバイルアプリを通じてアクセスする世界的なイベントです。この巨大なデジタル体験を支えているのが大会の情報、選手データ、コンテンツ管理、イベント予約などを統合的に扱う高度なDrupalサイトです。 本セッションでは世界でも有数のアクセス数を誇るDrupalサイトをどのように準備し、安定的に運営しているかをご紹介します。Drupalの強力なキャッシュ機能を最大限に活用し、リスクを適切に管理し、万が一の事態に備える方法について詳しく解説します。",
-      "link": "https://events.drupal.org//nara2025/session-0",
-      "track": "devops",
+      "startTime": "2026-05-14T02:00:00Z",
+      "endTime": "2026-05-14T02:30:00Z",
+      "duration": "P30M",
+      "title": "Security on Autopilot: Low-Touch Automated Security for Drupal Projects",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4314",
+      "track": "Other ...",
       "speakers": [
-        "jimmycann"
-      ],
-      "timezone": ""
+        "Nathan ter Bogt"
+      ]
     },
     {
-      "startTime": "2025-11-18T14:25:00Z",
-      "endTime": "2025-11-18T14:45:00Z",
-      "duration": "PT20M",
-      "summary": "I’m Not a Front-End Dev: Building Clean UI in Drupal with SDCs and Shoelace",
-      "location": "Location Hiten A",
-      "description": "As a full-stack Drupal developer, I’ve often found front-end frameworks too opinionated or hard to plug into Drupal cleanly. With Single Directory Components (SDCs) and Web Components like Shoelace, we now have a scalable, framework-free way to build modern UI — without needing React or Vue.",
-      "link": "https://events.drupal.org//nara2025/session/im-not-front-end-dev-building-clean-ui-drupal-sdcs-and-shoelace",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-14T02:40:00Z",
+      "endTime": "2026-05-14T03:10:00Z",
+      "duration": "P30M",
+      "title": "Practical Performance Testing",
+      "location": "Breakout 1",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4294",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "yi_jiang"
-      ],
-      "timezone": ""
+        "Nick Schuch"
+      ]
     },
     {
-      "startTime": "2025-11-18T14:45:00Z",
-      "endTime": "2025-11-18T15:00:00Z",
-      "duration": "PT15M",
-      "summary": "Afternoon Break",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/afternoon-break-0",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T15:00:00Z",
-      "endTime": "2025-11-18T15:45:00Z",
-      "duration": "PT45M",
-      "summary": "AI Agents in Drupal CMS - Create your own agent",
-      "location": "Location Hiten C/D",
-      "description": "You’ve seen what AI Agents can do in Drupal. What if you could create your own Agents? What if this were so easy that every module across the Drupal ecosystem could have its agents, and they all worked together in harmony?",
-      "link": "https://events.drupal.org//nara2025/session/ai-agents-drupal-cms-create-your-own-agent",
-      "track": "development and coding / 開発とコーディング",
+      "startTime": "2026-05-14T02:40:00Z",
+      "endTime": "2026-05-14T03:10:00Z",
+      "duration": "P30M",
+      "title": "An introduction to DDev and then how extend it with a mix of technologies",
+      "location": "Breakout 2",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4285",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "https://www.drupal.org/u/vincenzo-gambino"
-      ],
-      "timezone": ""
+        "Joshua Stuart Graham"
+      ]
     },
     {
-      "startTime": "2025-11-18T15:00:00Z",
-      "endTime": "2025-11-18T15:45:00Z",
-      "duration": "PT45M",
-      "summary": "How to become a Drupal Certified Partner agency",
-      "location": "Location Hiten B",
-      "description": "Curious about becoming a Drupal Certified Partner? Drop in for an informal discussion with Drupal Association CEO Tim Doyle to learn how your agency can get involved, the benefits of certification, and ways to strengthen your connection with the global Drupal community.",
-      "link": "https://events.drupal.org//nara2025/session/how-become-drupal-certified-partner-agency",
-      "track": "",
+      "startTime": "2026-05-14T03:30:00Z",
+      "endTime": "2026-05-14T04:00:00Z",
+      "duration": "P30M",
+      "title": "Back to the Future: A look at web development around the millenium",
+      "location": "Breakout 3",
+      "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4219",
+      "track": "Web Tools \u0026 Complementary Technologies",
       "speakers": [
-        "Tim Doyle"
-      ],
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T15:00:00Z",
-      "endTime": "2025-11-18T15:45:00Z",
-      "duration": "PT45M",
-      "summary": "デジタル庁が取り組むDrupalを活用した共通CMSの構築",
-      "location": "Location Hiten A",
-      "description": "Drupalを活用して構築した共通CMSの歩み そのプロトタイプとしてのデジタル庁ウェブサイトの取組 アクセシビリティに対応するためのデジタル庁デザインシステムとの親和性向上の取組等",
-      "link": "https://events.drupal.org//nara2025/session/teshitarutingkaqurizumudrupalwohuoyongshitagongtongcmsnogouzhu",
-      "track": "ux, accessibility, and design / ux、アクセシビリティ、デザイン",
-      "speakers": [
-        "Akihiko Sakamoto",
-        "Hirokazu Awaji"
-      ],
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T16:15:00Z",
-      "endTime": "2025-11-18T17:00:00Z",
-      "duration": "PT45M",
-      "summary": "\"当たり前\"を疑いましょ ~ フレームワークからドメインを守るDrupalアーキテクチャ ~",
-      "location": "Location Hiten B",
-      "description": "「Taxonomy便利ですよね。」って導入をいつもだったらするんですが、今回はできません。なぜなら私は、TaxonomyをCoreから外してほしいと思っているから。 この冒頭で「何言ってるの？」って感じた方。Taxonomyの強みを言えますか？ 本セッションでは、「分類要件といえばTaxonomy！」というDrupalの常識(当たり前)にフォーカスをあてて、その“当たり前”や”習慣”が本当に合理的かを評価し、フレームワークとの向き合い方について、今までのDrupalからすると当たり前ではない提案をさせていただきます。",
-      "link": "https://events.drupal.org//nara2025/session/dangtariqianwoyiimashiyo-furemuwakukaratomeinwoshourudrupalakitekuchiya",
-      "track": "site building / サイト構築",
-      "speakers": [
-        "umekikazuya"
-      ],
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T16:15:00Z",
-      "endTime": "2025-11-18T17:00:00Z",
-      "duration": "PT45M",
-      "summary": "Not Just a Comeback: Building a Sustainable Drupal Community in India",
-      "location": "Location Hiten C/D",
-      "description": "This is a case study of how we brought the Drupal community in India back to life after the pandemic, not just to where it was, but into a healthier, more sustainable structure.",
-      "link": "https://events.drupal.org//nara2025/session/not-just-comeback-building-sustainable-drupal-community-india",
-      "track": "community health / コミュニティヘルス",
-      "speakers": [
-        "nikitaaswani"
-      ],
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T16:15:00Z",
-      "endTime": "2025-11-18T16:35:00Z",
-      "duration": "PT20M",
-      "summary": "Smart Search, Safe Search: How Drupal + AI Work Together",
-      "location": "Location Hiten A",
-      "description": "AI search is powerful—but without access control, it can leak private content. This beginner-friendly session introduces RAG (Retrieval-Augmented Generation) and shows how Drupal can sit between users and AI to enforce roles and permissions.",
-      "link": "https://events.drupal.org//nara2025/session/smart-search-safe-search-how-drupal-ai-work-together",
-      "track": "development and coding / 開発とコーディング",
-      "speakers": [
-        "sachikonitta"
-      ],
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T16:40:00Z",
-      "endTime": "2025-11-18T17:00:00Z",
-      "duration": "PT20M",
-      "summary": "One kilobyte of JS is enough to make a decoupled FE block in Drupal. And no Babels required!",
-      "location": "Location Hiten A",
-      "description": "To make a Drupal website modern we usually bring there interactive frontend components in JavaScript. But not only just components!",
-      "link": "https://events.drupal.org//nara2025/session/one-kilobyte-js-enough-make-decoupled-fe-block-drupal-and-no-babels-required",
-      "track": "development and coding / 開発とコーディング",
-      "speakers": [
-        "murz"
-      ],
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T17:00:00Z",
-      "endTime": "2025-11-18T17:15:00Z",
-      "duration": "PT15M",
-      "summary": "Closing Ceremony",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/closing-ceremony",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-18T18:00:00Z",
-      "endTime": "2025-11-18T20:00:00Z",
-      "duration": "PT2H",
-      "summary": "Thank You After Party / サンキューパーティー",
-      "location": "Location Cafe Etranger NARAD",
-      "description": "The event is done, it's time to party! Join us for the official DrupalCon Nara party. website: https://cafe-etranger.jp/ map: https://maps.app.goo.gl/xkDHtRgW7Uxdz34PA",
-      "link": "https://events.drupal.org//nara2025/session/thank-you-after-party-sankiyuhatei",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
-    },
-    {
-      "startTime": "2025-11-19T09:00:00Z",
-      "endTime": "2025-11-19T17:20:00Z",
-      "duration": "PT8H20M",
-      "summary": "General Contribution Day 3",
-      "location": "Location Hiten C/D",
-      "description": "",
-      "link": "https://events.drupal.org//nara2025/session/general-contribution-day-3",
-      "track": "",
-      "speakers": null,
-      "timezone": ""
+        "Alistair O'Neill"
+      ]
     }
   ],
   "result": "✅",
-  "url": "https://events.drupal.org/nara2025"
+  "url": "https://drupalsouth.org/events/drupalsouth-wellington-2026/schedule"
 }
