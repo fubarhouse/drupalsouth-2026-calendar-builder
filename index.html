@@ -505,11 +505,10 @@
             filterEvents(window.allEvents);
         }
 
-        // Helper function to format date for ICS in timezone
+        // Helper function to format date for ICS as UTC
         function formatDateForICS(dateString) {
-            // Parse the ISO date string directly to avoid timezone conversion issues
-            // The source data is in xyz time, so we preserve it as-is
-            // Format: "2025-10-14T09:30:00" -> "20251014T093000"
+            // The source data is in UTC (Zulu), so strip punctuation and keep the Z suffix
+            // Format: "2026-05-11T21:00:00Z" -> "20260511T210000Z"
             return dateString.replace(/[-:]/g, '').replace(/\.\d+/, '');
         }
 
@@ -531,8 +530,8 @@
                 
                 return `BEGIN:VEVENT
 UID:${uid}
-DTSTART;TZID=Pacific/Auckland:${start}
-DTEND;TZID=Pacific/Auckland:${end}
+DTSTART:${start}
+DTEND:${end}
 SUMMARY:${event.title}
 LOCATION:${event.location}
 DESCRIPTION:${description}
