@@ -275,6 +275,18 @@
       ]
     },
     {
+      "startTime": "2026-05-13T21:00:00Z",
+      "endTime": "2026-05-13T21:30:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Main Room",
+      "link": "https://drupalsouth.org/",
+      "track": "Keynote",
+      "speakers": [
+        "TBA"
+      ]
+    },
+    {
       "startTime": "2026-05-13T21:40:00Z",
       "endTime": "2026-05-13T22:10:00Z",
       "duration": "P30M",
