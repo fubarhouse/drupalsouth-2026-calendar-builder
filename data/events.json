@@ -449,6 +449,30 @@
       "startTime": "2026-05-14T03:30:00Z",
       "endTime": "2026-05-14T04:00:00Z",
       "duration": "P30M",
+      "title": "TBA",
+      "location": "Breakout 1",
+      "link": "",
+      "track": "",
+      "speakers": [
+        null
+      ]
+    },
+    {
+      "startTime": "2026-05-14T03:30:00Z",
+      "endTime": "2026-05-14T04:00:00Z",
+      "duration": "P30M",
+      "title": "TBA",
+      "location": "Breakout 2",
+      "link": "",
+      "track": "",
+      "speakers": [
+        null
+      ]
+    },
+    {
+      "startTime": "2026-05-14T03:30:00Z",
+      "endTime": "2026-05-14T04:00:00Z",
+      "duration": "P30M",
       "title": "Back to the Future: A look at web development around the millenium",
       "location": "Breakout 3",
       "link": "https://drupalsouth.org//events/drupalsouth-wellington-2026/schedule/4219",
